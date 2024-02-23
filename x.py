@@ -30,9 +30,17 @@ while running:
     #faire avancé les projectile déja présent sur le terrain
     for projectille in game.player.all_bullet:
         projectille.move()
+    #faire avancé des monstres vers notre joueurs
+    for enemy in game.all_monster :
+        enemy.forward()
+    
+    
     
     #faire  apparaitre les projectilles lorsque le joueur appuis sur la touche 
     game.player.all_bullet.draw(screen)
+    
+    #faire apparaitres des monstres
+    game.all_monster.draw(screen)
     
     print(game.pressed)
     print(game.player.rect.x)

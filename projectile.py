@@ -29,3 +29,10 @@ class projectile(pygame.sprite.Sprite):
             if self.rect.x>self.porter_max:
                 self.remove(self.player)
                 print("projectille detruit!")
+                
+    #verifier si les projectilles entrent en collision avec le monstre
+    
+            if self.player.game.check_collision(self, self.player.game.all_monster):
+                print("monstre touché")
+                self.remove(self)
+                
