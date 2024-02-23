@@ -18,7 +18,7 @@ running = True #fonction charger de la verification du fonctionnement de notre j
 
 #creation de l'arriere plan de notre fenetre
 
-background = pygame.image.load("C:\\Users\\0n3Th1nG\\Desktop\\2d games test\\PygameAssets-main\\bg.jpg")  #variable chargé contenir l'arriere plan de notre jeu 
+background = pygame.image.load("C:\\Users\\0n3Th1nG\\Desktop\\Xe\\python-g\\PygameAssets-main\\bg.jpg")  #variable chargé contenir l'arriere plan de notre jeu 
  
 
 while running:

@@ -11,7 +11,7 @@ class player(pygame.sprite.Sprite):
               self.attack = 15
               self.velocity = 1
               self.all_bullet = pygame.sprite.Group()
-              self.image = pygame.image.load("C:\\Users\\0n3Th1nG\\Desktop\\2d games test\\PygameAssets-main\\player.png")
+              self.image = pygame.image.load("C:\\Users\\0n3Th1nG\\Desktop\\Xe\\python-g\\PygameAssets-main\\player.png")
               self.rect = self.image.get_rect()
               self.rect.y = 430
         def shoot(self):

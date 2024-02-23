@@ -8,7 +8,7 @@ class projectile(pygame.sprite.Sprite):
         self.velocity = 1
         self.player = player
         self.porter_max = 500
-        self.image = pygame.image.load("C:\\Users\\0n3Th1nG\\Desktop\\2d games test\\PygameAssets-main\\projectile.Png")
+        self.image = pygame.image.load("C:\\Users\\0n3Th1nG\\Desktop\\Xe\\python-g\\PygameAssets-main\\projectile.Png")
         self.image = pygame.transform.scale(self.image, (40,40))
         self.rect = self.image.get_rect()
         self.rect.x = player.rect.x + 125
